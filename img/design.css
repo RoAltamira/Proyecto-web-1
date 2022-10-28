@@ -1,0 +1,50 @@
+body{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+h1
+{
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-left: 50px;
+}
+ul li{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+img{
+    width: auto;
+    height: auto;
+}
+
+article {
+    font-weight:900;
+    box-sizing: border-box;
+
+
+}
+.cajal article{
+    box-sizing: content-box;
+    margin-bottom: 10cm;
+    background-color: aqua;
+}
+
+.row{
+    display: flex;
+    float: left;
+}
+
+col{
+    margin: 10pt;
+}
+
+@media{min-width: 800px;}{
+    img{
+        width: auto;
+        height: auto;         
+    }
+}
+
